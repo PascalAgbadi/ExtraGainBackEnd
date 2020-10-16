@@ -1,0 +1,18 @@
+{
+  "name": "extra-gainbackend",
+  "version": "1.0.0",
+  "description": "backend for ExtraGain PreMest Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install express --save",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Pascal Agbadi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  }
+}
